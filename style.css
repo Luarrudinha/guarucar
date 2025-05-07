@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Kaushan+Script&family=Lexend+Deca:wght@100..900&family=Lexend+Zetta:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Righteous&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sarala:wght@400;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    font-family: "Lexend Zetta", sans-serif;
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+}
+
+body{
+    font-size: 12px; 
+    background: radial-gradient( #4D5B7E, #191351);
+    color: white;
+
+}
+
+.imagem{
+    max-height:250px; 
+    max-width:380px;
+    min-height:125px; 
+    min-width:190px;
+    width: 80%;
+    border-radius: 10px;
+    
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+
+    
+}
+
+.cabecalho-item{
+    color: white;
+    background-color: rgba(0, 0, 0, 1); 
+    border-radius: 5px;
+    padding: 10px 40px;
+    text-decoration: none;
+   
+}
+
+.cabecalho-item:hover{
+    background-color: rgba(255, 255, 255, 0.377);
+    border-radius: 5px;
+   
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.inicio, .sobre, .localizacao{
+    display: flex;
+    padding: 20px;
+    height: 500px;
+    gap: 20px;
+    text-align: center;
+}
+
+
+.conteudo-esquerda, .conteudo-direita{
+    flex: 1;
+    padding: auto;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    
+}
+
+.paragrafo{
+    
+    align-items: center;
+}
+
+.importante{
+    
+    text-align: center;
+}
+
+
+/*.conteudo-esquerda{
+    padding: 50px;
+    margin: 20px;
+    
+}*/
+
+.conteudo-direita{
+    display: block;
+    margin: auto;
+
+    
+}
+
+.espacamento{
+    padding-top: auto;
+}
+
+.cont-esquerda{
+    text-align: center;
+
+}
+
+.paragrafo-esquerda{
+    text-align: center;
+    padding: auto;
+    margin-top: 30x;
+}
+
+.contato-direita{
+    display: block;
+    margin: auto;
+}
+
+.nav{
+    
+    justify-content: flex-end;
+}
+
+
+@media (max-width: 768px) {
+    .inicio, .sobre, .localizacao{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {  
+    h1 {
+        font-size: 2px;
+        color: greenyellow;
+    }
+    p {
+        font-size: 8px;
+    }
+}
+
+/*para o tam da tela de ate 768px (max) a fonte sera 12px */
